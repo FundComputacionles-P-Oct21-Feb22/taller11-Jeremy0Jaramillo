@@ -1,0 +1,51 @@
+1.Inicio
+
+2.nombre_cliente, x(40) [{a-z}, {A-Z}, {BS}]
+3.cedula, i[0-n]
+
+4.función principal()
+
+5.confirmar, x(10) [{a-z}, {A-Z}, {BS}]
+
+6.Escribir "Ingrese su nombre"
+7.Obtener nombre_cliente
+8.Escribir "Ingrese su número de cédula"
+9.Obtener cedula
+
+10.Escribir "Escriba (1) si desea calcular el Valor de luz, de lo contrario puede ingresar (2) para calcular el Valor del predio
+11.Obtener confirmar
+
+12.Si (confirmar = "si") entonces
+	13.obtenerCalcularValorLuz()
+14.Caso contrario
+	15.Si (confirmar = "no") entonces
+		16.obtenerCalcularPredio()
+17.fin funcion principal
+
+18.funcion obtenerCalcularValorLuz
+19.valor_kilovatio, d[0-n]
+20.numero_kilovatios, i[0-n]
+21.operacion, d[0-n]
+
+22.Escribir "Ingrese el valor del kilovatio"
+23.Obtener valor_kilovatio
+
+24.Escribir "Ingrese el número de kilovatios consumidos en el mes"
+25.Obtener numero_kilovatios
+
+26.operacion = valor_kilovatios * numero_kilovatios
+27.Escribir "Cliente " + nombre_cliente + " con cédula " + cedula + " debe cancelar el valor de $" + operacion
+28.fin funcion obtenerCalcularValorLuz
+
+29.funcion obtenerCalcularPredio
+30.valor_inmueble, d[0-n]
+31.operacion, d[0-n]
+
+32.Escribir "Ingrese el valor del Inmueble"
+33.Obtener valor_inmueble
+
+34.operacion = (valor_inmueble * 2)/100
+35.Escribir "Cliente " + nombre_cliente + " con cédula " + cedula + " tiene un bien inmueble valorado en $" + valor_inmueble + " y tiene que pagar de predio $" + operacion
+36.fin funcion obtenerCalcularPredio
+
+37.Fin

@@ -1,0 +1,53 @@
+1.Inicio
+2.resultado, d[0-n]
+2.funcion principal()
+4.número, i[0-n]
+3.Escribir "Ingrese "1" para calcular el área de un cuadrado, "2" para calcular el área de un triangulo o "3" para calcular el área de un rectángulo."
+4.Obtener número
+
+5.Si (número <-- 1) entonces
+6. Escribir "Ingrese la medida de un lado del cuadrado"
+7. Obtener lado
+8. obtenerAreaCuadrado(lado)
+9. escribir resultado
+10.Caso Contrario
+
+11.  Si (número <-- 2) entonces
+12.    Escribir "Ingrese la medida de la base del triángulo"
+13.    Obtener base
+14.    Escribir "Ingrese la medida de la altura del triángulo"
+15.    Obtener altura
+16.    obtenerAreaTriangulo(base, altura)
+17.    escribir resultado
+18.  Caso Contrario
+
+19.    Si (número <-- 3) entonces
+20.    	Escribir "Ingrese la medida de la base del rectángulo"
+21.    	Obtener base
+22.    	Escribir "Ingrese la medida de la altura del rectángulo"
+23.    	Obtener altura
+24.     obtenerAreaRectangulo
+25.     escribir resultado
+26.Fin si
+
+27.fin funcion principal
+
+28.funcion obtenerAreaCuadrado(a, i) : i
+29.  v1, i[0-n]
+30.  v1 <-- a x a
+31.  resultado <-- v1
+32.fin funcion obtenerAreaCuadrado
+
+33.funcion obtenerAreaTriangulo(a, i; b, i) : i
+34.  v1, i[0-n]
+35.  v1 <-- (a x b)/2
+36.  resultado <-- v1
+37.fin funcion obtenerAreaTriangulo
+
+38.funcion obtenerAreaRectangulo(a, i; b, i) : i
+39.  v1, i[0-n]
+40.  v1 <-- a x b
+41.  resultado <-- v1
+42.fin funcion obtenerAreaRectangulo
+
+43.Fin

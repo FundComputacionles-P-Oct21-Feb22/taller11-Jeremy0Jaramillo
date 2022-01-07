@@ -1,0 +1,24 @@
+1.Inicio
+
+2.cadena, x(50) [{a-z}, {A-Z}, {BS}] <--- ""
+
+3.funcion principal
+
+4.obtener funcionarreglo
+5.Escribir cadena + " |"     // | 1 | 2 | 2 | 32 | 7 |
+
+6.fin funcion principal
+
+
+7.funcionarreglo
+
+8.(datos (5), i[0-n])
+9.para (filas, i[0-n] <--- 0; filas < 5; 1)
+10.Escribir "Ingrese un dato para el arreglo"
+11.Obtener datos(filas)
+12.cadena <--- cadena + " | " + datos(filas)      // | 1 | 2 | 2 | 32 | 7 
+13.fin para
+
+14.fin funcionarreglo
+
+15.Fin
